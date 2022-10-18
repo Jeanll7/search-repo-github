@@ -1,24 +1,43 @@
-/* Reset */
+/* Global */
 
-/* * {  
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-} */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  background: #1ef5;
+    font-family: Arial, sans-serif;
+    background: #122;
+    color: #ffd;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+h1 {
+    text-decoration: none !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 input {
-  font-size: 18px;
+    font-size: 18px;
+    color: #000;
 }
 
 li {
-  /* list-style: none; */
-  font-size: 1.2rem;
-  list-style: circle;
+    list-style: none;
+    font-size: 1.2rem;
 }
-
-
