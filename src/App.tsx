@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import "tailwindcss/tailwind.css";
 
 interface Repo {
   name: string;
